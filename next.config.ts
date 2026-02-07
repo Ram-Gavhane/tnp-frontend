@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "**.auth0.com",
       },
+      {
+        protocol: "https",
+        hostname: "webweb.ams3.cdn.digitaloceanspaces.com",
+        pathname: "/data/**",
+      },
     ],
   },
 };
