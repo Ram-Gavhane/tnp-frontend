@@ -289,7 +289,7 @@ export default function AdminJobDetailPage() {
               <Button
                 onClick={() =>
                   window.open(
-                    `/api/my-proxy/api/v1/admin/jobs/${job.id}/applications/download?fields=${selectedFields.join(",")}`,
+                    `/api/my-proxy/api/v1/admin/jobs/${job.id}/applications/download?fields=${selectedFields.join(",")}&status=${activeTab}`,
                     "_blank",
                   )
                 }
